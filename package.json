@@ -1,0 +1,17 @@
+{
+  "name": "video-editor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "pnpm --filter @ve/web dev",
+    "build": "pnpm --filter @ve/web build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "pnpm --filter @ve/editor-core test",
+    "lint": "pnpm -r --if-present lint"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

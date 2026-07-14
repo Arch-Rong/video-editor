@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+/* Workspace packages live outside apps/web — Tailwind must scan them explicitly. */
+@source '../../../packages/editor-ui/src';
+@source '../../../packages/editor-embed/src';
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #0a0a0a;
+  color: #f5f5f5;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    sans-serif;
+}

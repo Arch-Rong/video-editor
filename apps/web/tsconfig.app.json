@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "baseUrl": ".",
+    "paths": {
+      "@ve/editor-schema": ["../../packages/editor-schema/src"],
+      "@ve/editor-core": ["../../packages/editor-core/src"],
+      "@ve/editor-ui": ["../../packages/editor-ui/src"],
+      "@ve/editor-embed": ["../../packages/editor-embed/src"]
+    }
+  },
+  "include": ["src"]
+}
