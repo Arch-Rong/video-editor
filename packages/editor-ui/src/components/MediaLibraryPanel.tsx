@@ -1,3 +1,9 @@
+/**
+ * @file MediaLibraryPanel.tsx
+ * @description 左侧素材库面板。
+ * MVP 只是占位 UI；后续在此上传/列表素材，并拖到时间轴上生成 Clip。
+ */
+/** 素材库空态占位。 */
 export function MediaLibraryPanel() {
   return (
     <div className="flex h-full flex-col gap-3 p-3">
